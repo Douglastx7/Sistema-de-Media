@@ -1,0 +1,213 @@
+body,
+h1,
+h3,
+input,
+p,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Yaldevi;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px 0 12px 0;
+    position: relative;
+}
+
+.header {
+    background-color: #002F61;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0 20px 0;
+}
+
+.header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.descricao {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.descricao h3 {
+    color: #0054AD;
+    font-size: 20px;
+}
+
+label {
+    color: white;
+}
+
+
+/* ======================================  SECTION 1  */
+
+.section-1 {
+    background-color: #006CE0;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.section-1 .container {
+    display: flex;
+    justify-content: center;
+}
+
+.verificando {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #002F61;
+    color: rgb(233, 47, 47);
+    text-align: center;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+.atividades input {
+    color: #002F61;
+    width: 100px;
+    height: 20px;
+    margin: 2px 30px 2px 4px;
+    font-size: 15px;
+}
+
+.pesos input {
+    color: #002F61;
+    width: 40px;
+    height: 20px;
+    margin: 2px 30px 2px 4px;
+    font-size: 15px;
+}
+
+.notas input {
+    color: #002F61;
+    width: 60px;
+    height: 20px;
+    margin: 2px 30px 2px 4px;
+    font-size: 15px;
+}
+
+
+/* ======================================  BUTTON   */
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.container-button button {
+    background-color: transparent;
+    color: #0054AD;
+    width: 150px;
+    height: 40px;
+    border: solid 2px #0054AD;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container-button button:hover {
+    color: white;
+    background-color: #0054AD;
+}
+
+
+/* ======================================  SECTION 2  */
+
+.section-2 {
+    text-align: center;
+}
+
+
+/* ======================================  SECTION 3  */
+
+.section-3 {
+    text-align: center;
+    background-color: #006CE0;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.container-label {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.class-media::after {
+    content: "MÉDIA";
+    top: 5;
+    left: -25px;
+    bottom: 1px;
+    position: absolute;
+}
+
+.class-resultado::after {
+    content: "RESULTADO";
+    bottom: 1px;
+    right: 35px;
+    position: absolute;
+}
+
+.MEDIA {
+    width: 100px;
+    height: 100px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+
+/* ============================ */
+
+.RESULTADO {
+    color: white;
+    width: 240px;
+    height: 100px;
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+
+/* ======================================== FOOTER */
+
+.footer {
+    background-color: #002F61;
+    padding: 25px 0 25px 0;
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer a {
+    color: rgb(77, 77, 77);
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: rgb(107, 107, 107);
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assests/fonts/fonts.css" />
+    <link rel="stylesheet" href="/assests/styles/style.css" />
+    <link rel="stylesheet" href="/assests/styles/AtivarCor.css">
+    <link rel="stylesheet" href="/assests/styles/mobile.css">
+    <title>SISTEMA DE NOTAS / MÉDIA</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>sistema de notas / média</h1>
+    </header>
+
+    <div class="descricao">
+        <h3>Esse é um sistema de gerar média</h3>
+    </div>
+
+    <section class="section-1">
+        <p class="verificando" id="verificar"></p>
+        <div class="container">
+
+            <div class="atividades">
+                <label>1º ATV</label>
+                <input id="ATV0" type="text" placeholder="" /> <br />
+                <label>2º ATV</label>
+                <input id="ATV1" type="text" placeholder="" /> <br />
+                <label>3º ATV</label>
+                <input id="ATV2" type="text" placeholder="" /> <br />
+                <label>4º ATV</label>
+                <input id="ATV3" type="text" placeholder="" /> <br />
+                <label>5º ATV</label>
+                <input id="ATV4" type="text" placeholder="" /> <br />
+            </div>
+
+            <div class="pesos">
+                <label>Peso</label>
+                <input id="peso0" type="number" /> <br />
+                <label>Peso</label>
+                <input id="peso1" type="number" /> <br />
+                <label>Peso</label>
+                <input id="peso2" type="number" /> <br />
+                <label>Peso</label>
+                <input id="peso3" type="number" /> <br />
+                <label>Peso</label>
+                <input id="peso4" type="number" /> <br />
+            </div>
+
+            <div class="notas">
+                <label>Nota</label>
+                <input id="nota0" type="number" /> <br />
+                <label>Nota</label>
+                <input id="nota1" type="number" /> <br />
+                <label>Nota</label>
+                <input id="nota2" type="number" /> <br />
+                <label>Nota</label>
+                <input id="nota3" type="number" /> <br />
+                <label>Nota</label>
+                <input id="nota4" type="number" /> <br />
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="container-button">
+            <button onclick="GerarMedia()">GERAR MÉDIA</button>
+            <button onclick="LimparCampos()">LIMPAR</button>
+        </div>
+    </section>
+
+    <section class="section-3">
+        <div class="container">
+            <div class="container-label">
+                <div class="labels">
+                    <label class="class-media"></label>
+                    <label class="class-resultado"></label>
+                </div>
+            </div>
+            <input class="MEDIA" id="media" type="number" disabled />
+            <input class="RESULTADO" id="resultado" type="text" disabled />
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>
+            <a href="https://www.douglasdeveloper.com/">Desenvolvedor: Douglas Mateus Teixeira</a
+        >
+      </p>
+    </footer>
+
+    <script src="/assests/js/script.js"></script>
+    <script src="/assests/js/AtivarCor.js"></script>
+  </body>
+</html>

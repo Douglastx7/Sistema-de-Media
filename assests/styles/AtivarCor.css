@@ -1,0 +1,37 @@
+/* =============== ATIVANDO CORES */
+
+.activeMediaAprovado { 
+    color: green;
+ }
+ 
+ .activeMediaReprovado { 
+     color: red;
+  }
+ 
+  .activeMediaRecuperacao{ 
+     color: orange;
+  }
+ 
+  /* --- */
+ 
+ .activeResultadoAprovado {
+      background-color: green;
+ }
+ 
+ .activeResultadoReprovado {
+     background-color: red;
+ }
+ 
+ .activeResultadoRecuperacao {
+     background-color: orange;
+ }
+
+
+ /* ----------------------- ATIVANDO COR NA VERIFICAÇÃO DOS INPUTs-------- */
+
+.AtivarBordaVermelha { 
+    border: solid 2px rgb(233, 47, 47);
+}
+
+
+
